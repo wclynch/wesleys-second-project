@@ -1,0 +1,42 @@
+/* Style - Fonts */
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875em; 
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3, p {
+  font-family: 'Montserrat', sans-serif
+  font-size: 0.875em;       
+}
+
+ul {
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875em;
+}
+
+img {
+  max-width: 100%;
+  display: block;S
+  height: auto;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/* No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }

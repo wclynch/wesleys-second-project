@@ -1,0 +1,127 @@
+
+/* --------------------------- Carousel --------------------------- */
+ 
+.contmin {
+    max-width: 70%;
+    margin: auto;
+}
+
+#myCarousel {
+  margin-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.carousel-item {
+  height: 34rem;
+  /*background-color: #bebebe;*/
+  background-color: transparent;
+}
+
+.carousel-control-next, 
+.carousel-control-prev {
+  top: 3rem;
+  width: 10%;
+}
+
+}
+
+/* ---------------------- Breakpoints for the Carousel ---------------------- */
+
+/* --- Extra small devices like phones - less than 360px --- */
+@media (max-width: 359.9px) {
+  .contmin {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 8rem;
+  }
+
+}
+
+/* --- Small devices like phones - starting at 360px ---*/
+@media (min-width: 360px) {
+  .contmin {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 12rem;
+  }
+ 
+}
+
+/* --- Medium devices like tablets - starting at 600px ---*/
+@media (min-width: 600px) {
+  .contmin {
+    max-width: 100%;
+  }
+  .carousel-item {
+    height: 20rem;
+  }
+  
+}
+
+/* --- Medium devices like tablets - starting at 758px ---*/
+@media (min-width: 758px) {
+  .contmin {
+    max-width: 90%;
+  }
+  .carousel-item {
+    height: 24rem;
+  }
+  
+}
+
+/* --- Tablets, Laptops - starting at 1024px ---*/
+@media (min-width: 1024px) {
+  .contmin {
+    max-width: 90%;
+  }
+  .carousel-item {
+    height: 28rem;
+  }
+}
+
+/* --- Tablets, Laptops - starting at 1280px ---*/
+@media (min-width: 1280px) {
+  .contmin {
+    max-width: 80%;
+  }
+  .carousel-item {
+    height: 32rem;
+  }
+ 
+}
+
+/* --- Laptops, Desktops - starting at 1366px ---*/
+@media (min-width: 1366px) {
+  .contmin {
+    max-width: 80%;
+  }
+  
+}
+
+/* --- Desktops - starting at 1536px ---*/
+@media (min-width: 1536px) {
+  .contmin {
+    max-width: 70%;
+  }
+ 
+}
+
+/* --- Desktops - starting at 1680px ---*/
+@media (min-width: 1680px) {
+  .contmin {
+    max-width: 70%;
+  }
+  
+}
+
+/* --- Desktops - starting at 1920px ---*/
+@media (min-width: 1920px) {
+  .contmin {
+    max-width: 60%;
+  }
+  
+}
+
+/* --------------------------- Carousel END --------------------------- */
